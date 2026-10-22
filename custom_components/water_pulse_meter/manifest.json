@@ -1,0 +1,13 @@
+{
+  "domain": "water_pulse_meter",
+  "name": "Water Pulse Meter",
+  "codeowners": [
+    "@CodeArcade-ctrl"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/CodeArcade-ctrl/water-pulse-meter",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/CodeArcade-ctrl/water-pulse-meter/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

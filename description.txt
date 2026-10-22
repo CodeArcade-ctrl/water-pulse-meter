@@ -1,0 +1,1 @@
+Convert a cumulative water-meter pulse sensor into calibrated liters in Home Assistant.
