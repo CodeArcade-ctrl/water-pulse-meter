@@ -3,17 +3,17 @@
     "step": {
       "user": {
         "title": "Water Pulse Meter",
-        "description": "Many DIY water meters expose a pulse counter rather than a volume. This integration applies a configurable liters-per-pulse factor to the cumulative count, without sending data anywhere."
+        "description": "Many DIY water meters expose a pulse counter rather than a volume. This integration applies a configurable liters-per-pulse factor to the cumulative count, without sending data anywhere.",
+        "data": {
+          "pulse_entity": "Cumulative pulse counter",
+          "liters_per_pulse": "Liters per pulse",
+          "starting_liters": "Starting total in liters"
+        }
       }
     },
     "abort": {
       "already_configured": "Deze sensorcombinatie is al ingesteld."
     },
-    "error": {},
-    "data": {
-      "pulse_entity": "Cumulative pulse counter",
-      "liters_per_pulse": "Liters per pulse",
-      "starting_liters": "Starting total in liters"
-    }
+    "error": {}
   }
 }

@@ -11,10 +11,6 @@ from .engine import calculate
 PLATFORMS = ['sensor']
 _LOGGER = logging.getLogger(__name__)
 
-async def async_setup(hass: HomeAssistant, config: dict) -> bool:
-    """Set up from YAML is not supported; use the UI config flow."""
-    return True
-
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     """Set up a configured instance."""
     async def async_update_data():
